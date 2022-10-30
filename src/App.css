@@ -118,6 +118,7 @@ section {
   font-size: 2em;
 }
 
+
 .header-container{
 
 }
@@ -144,3 +145,7 @@ section {
   height: 65%;
 
 }
+.buttonsGrateful{
+  display: flex;
+}
+
