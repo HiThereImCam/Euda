@@ -4,6 +4,7 @@
   font-family: 'Gochi Hand', cursive;
 }
 
+
 .garden{
   width: 100vw;
   height: 100vh;
@@ -29,11 +30,16 @@
   border-radius: 30px;
   padding: 1em;
 }
+
 .sky{
   width: 100vw; 
   height: 100vh;
   background-color: #87BDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .modalShape{
   display:flex;
   align-content: center;
@@ -44,11 +50,14 @@
   padding: 2em 4em;
   max-width: fit-content;
 }
+
 section{
-  /* margin: 0 auto;
+  /* /* margin: 0 auto;
   max-width: 70vw; */
+  width: 100vw; */
   width: 100vw;
 }
+
 .resources{
   display: flex;
   align-items: center;
@@ -77,6 +86,13 @@ section{
 .resourcImg{
   margin-right: 2em;
   margin-top: 1em;
+}
+
+.mood_modal-container{
+  border: 5px solid red;
+  margin: 0 auto;
+  width: 31.25rem;
+  height: 31.25rem;
 }
 
 .modalGrateful{

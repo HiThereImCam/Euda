@@ -1,5 +1,5 @@
-import useOnClickOutside from "../Hooks/useOnClickOutside";
-import CalImg from "../images/calendar.svg";
+import useOnClickOutside from "../../Hooks/useOnClickOutside"
+import CalImg from "../../images/calendar.svg";
 
 const Calendar = ({setCalendarClick, modalRef}) => {
     useOnClickOutside(modalRef, () => setCalendarClick(false))

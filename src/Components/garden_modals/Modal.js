@@ -3,9 +3,9 @@ import { useRef, useState } from "react"
 import Calendar from "./Calendar";
 import Connect from "./Connect";
 import Learn from "./Learn";
-import CalendarIcon from "../images/calendar-icon.svg";
-import Book from "../images/book.svg";
-import Conversation from "../images/conversation.png";
+import CalendarIcon from "../../images/calendar-icon.svg";
+import Book from "../../images/book.svg";
+import Conversation from "../../images/conversation.png";
 import Grateful from "./Grateful";
 
 const Modal = () => {

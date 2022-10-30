@@ -1,6 +1,6 @@
-import useOnClickOutside from "../Hooks/useOnClickOutside";
-import BetterHelp from "../images/betterhelp.png";
-import CrisisCon from "../images/crisisconnections.png";
+import useOnClickOutside from "../../Hooks/useOnClickOutside"
+import BetterHelp from "../../images/betterhelp.png";
+import CrisisCon from "../../images/crisisconnections.png";
 
 const Connect = ({setConnectClick, modalRef}) => {
     useOnClickOutside(modalRef, () => setConnectClick(false))
