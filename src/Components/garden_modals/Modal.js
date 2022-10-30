@@ -23,7 +23,7 @@ const Modal = () => {
     return(
         <div className="container">
             <div className="modal">
-                <Grateful/>
+                
                 {/* <CalendarMonthIcon sz={18} onClick={() => setCalendarClick(true)} /> */}
                 {calendarClick && 
                 <Calendar setCalendarClick={setCalendarClick} modalRef={modalRef}/> }
