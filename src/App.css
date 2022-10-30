@@ -111,3 +111,6 @@ section {
   font-family: 'Gochi Hand', cursive;
   font-size: 2em;
 }
+.buttonsGrateful{
+  display: flex;
+}
