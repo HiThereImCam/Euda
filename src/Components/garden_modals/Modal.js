@@ -3,9 +3,9 @@ import { useRef, useState } from "react"
 import Calendar from "./Calendar";
 import Connect from "./Connect";
 import Learn from "./Learn";
-import CalendarIcon from "../images/Track_widget.png"
-import Book from "../images/Learn_widget.png";
-import Conversation from "../images/Connect_widget.png";
+import CalendarIcon from "../../images/Track_widget.png"
+import Book from "../../images/Learn_widget.png";
+import Conversation from "../../images/Connect_widget.png";
 
 const Modal = () => {
     const [calendarClick, setCalendarClick] = useState(false)
