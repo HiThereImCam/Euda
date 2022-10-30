@@ -6,8 +6,8 @@ import Garden from "./images/garden.svg"
 function App() {
   return (
     <div className="App">
-      <img src={Garden} alt="garden background" />
-      {/* <Modal /> */}
+      {/* <img src={Garden} alt="garden background" id='garden-background'/> */}
+      <Modal />
     </div>
   );
 }
