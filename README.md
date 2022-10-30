@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Euda
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was created for the HackSEA event in an attempt to provide a service for Mental Heath. In general, this application allows for the user to check-in with their feelings during the day and gives them an option to provide input to express those feelings. As users use the app, they will create a log of expressions over any period of time. In addition, the app aims to eventually provide mental health education and outlets to seek help if one is in need.
 
-## Available Scripts
+## Features and Development
 
-In the project directory, you can run:
+As mentioned before, users will have the option to provide some input as to how they are feeling that day. The input comes in two parts, first of which is a 1-5 scale. We opted for emojis with facial expressions for the scale. 
 
-### `npm start`
+![alt text](./src/images/hacksea_feeling.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app will keep a log of the score given by the user as well as an optional short prompt whereby the user can provide some thoughts on their day and well-being.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The user can see a history of their logs via the calendar in what is the main page of the application. Here a user may click on the calendar to view past logs and thoughts. 
 
-### `npm test`
+![alt text](./src/images/hacksea_calendar.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Though not currently implemented, in additon to the logs the user will receive a "gift" for checking in with themselves; the current idea is to implement a garden whereby with each day the user will receive a flower, and with each subsequent day that flower will grow in the user's garden. 
 
-### `npm run build`
+### Modals 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+One the central frontend features of our application is the use of modals, we intend for the main page to be mostly empty, as we would like the garden to be the central space of the homescreen. To keep an interactive experience, we opted to use three widgets with subsequent modals for the eventual functionality. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](./src/images/hacksea_modals.PNG)
