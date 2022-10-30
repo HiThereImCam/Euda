@@ -28,6 +28,13 @@
   border-radius: 30px;
   padding: 1em;
 }
+
+.sky{
+  width: 100vw; 
+  height: 100vh;
+  background-color: white;
+}
+
 .modalShape{
   display:flex;
   align-content: center;
@@ -38,10 +45,13 @@
   padding: 2em 4em;
   max-width: fit-content;
 }
+
 section{
-  margin: 0 auto;
-  max-width: 70vw;
+  /* margin: 0 auto;
+  max-width: 70vw; */
+  width: 100vw;
 }
+
 .resources{
   display: flex;
   align-items: center;
