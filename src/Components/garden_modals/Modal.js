@@ -31,7 +31,7 @@ const Modal = () => {
             </div>
             <div className="buttons">
                 <button className="icon" onClick={() => setCalendarClick(true)}>
-                    <img src={CalendarIcon} alt="calendar"/></button>
+                <img src={CalendarIcon} alt="calendar"/></button>
                 <button className="icon" onClick={() => setResourceClick(true)}>
                 <img src={Book} alt="calendar"/></button>
                 <button className="icon" onClick={() => setConnectClick(true)}>
