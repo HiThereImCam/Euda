@@ -4,6 +4,7 @@
   font-family: 'Gochi Hand', cursive;
 }
 
+
 .garden{
   width: 100vw;
   height: 100vh;
@@ -25,9 +26,8 @@
 .buttons{
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 30px;
-  padding: 1em;
+  border-radius: 30px; 
+  padding: 1em; 
 }
 
 .sky{
@@ -53,10 +53,10 @@
   max-width: fit-content;
 }
 
-section{
-  /* margin: 0 auto;
+section {
+  /* /* margin: 0 auto;
   max-width: 70vw; */
-  width: 100vw;
+  width: 100vw; 
 }
 
 .resources{
@@ -96,7 +96,22 @@ section{
   height: 31.25rem;
 }
 
-/* .mood-img{
- width: 100%; 
- z-index: 0;
-} */
+.modalGrateful{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #7C60B1;
+  border-radius: 30px;
+  padding: 4em 4em;
+}
+.modalGrateful h2{
+  margin-top: 0;
+}
+.buttonsGrateful > button {
+  padding: 0.5em;
+  border-radius: 55px;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 2em;
+}
+
