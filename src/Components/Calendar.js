@@ -1,13 +1,13 @@
-
-import useOnClickOutside from "../Hooks/useOnClickOutside"
+import useOnClickOutside from "../Hooks/useOnClickOutside";
+import CalImg from "../images/calendar.svg";
 
 const Calendar = ({setCalendarClick, modalRef}) => {
     useOnClickOutside(modalRef, () => setCalendarClick(false))
     return(
-        <div ref = {modalRef} style={{border: '1px solid red'}}>
-            Hi I'm a modal. Click outside of me.
+        <div className="modalShape" ref = {modalRef}>
+            <img src={CalImg} alt="calendar" className="resourcImg"/>
         </div>
     )
 }
 
-export default Calendar
+export default Calendar;
