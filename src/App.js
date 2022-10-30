@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 import Modal from './Components/Modal';
-import Garden from "./images/garden.svg"
+//import Garden from "./images/garden.svg"
 
 function App() {
   return (
     <div className="App">
-      {/* <img src={Garden} alt="garden background" id='garden-background'/> */}
+      <div className="garden">
+      
       <Modal />
+      </div>
     </div>
   );
 }

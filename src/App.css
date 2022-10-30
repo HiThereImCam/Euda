@@ -1,48 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 .App {
   text-align: center;
+  font-family: 'Gochi Hand', cursive;
 }
-
-#root {
-  height: 100%;
+.garden{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/garden.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal{
+  margin-right: 3em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  padding: 1em;
+}
+.modalShape{
+  display:flex;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  padding: 2em 4em;
+  max-width: fit-content;
 }
-
-.App-link {
-  color: #61dafb;
+section{
+  margin: 0 auto;
+  max-width: 70vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resources{
+  display: flex;
+  align-items: center;
+  margin: 1em 0 2em auto;
 }
+.grid{
+  display: grid;
 
-
-
-#garden_background {
-  z-index: 0;
+}
+.textContainer{
+  display: flex;
+  margin: 0 auto;
+  background-color: #7C60B1;
+  border-radius: 30px;
+  width: 755px;
+  height: 138px;
+}
+.textContainer p {
+  align-self: center;
+  margin: auto 1em;
+}
+.textContainer a {
+  align-self: center;
+  margin: auto 1em;
+}
+.resourcImg{
+  margin-right: 2em;
+  margin-top: 1em;
 }

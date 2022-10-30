@@ -1,6 +1,11 @@
 import { useRef, useState } from "react"
 // import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import CalendarModal from "./Calendar";
+import Calendar from "./Calendar";
+import Connect from "./Connect";
+import Learn from "./Learn";
+import CalendarIcon from "../images/calendar-icon.svg";
+import Book from "../images/book.svg";
+import Conversation from "../images/conversation.png";
 
 const Modal = () => {
     const [calendarClick, setCalendarClick] = useState(false)
@@ -14,11 +19,28 @@ const Modal = () => {
         render icons and onClick set correct modal to true
      */
     return(
-        <div id="modal-container">
-         {/* <CalendarMonthIcon sz={18} onClick={() => setCalendarClick(true)} /> */}
-         {calendarClick ? 
-         <CalendarModal setCalendarClick={setCalendarClick} modalRef={modalRef}/> : 
-         <button onClick={() => setCalendarClick(true)}>Click me please</button>} 
+        <div className="container">
+            <div className="modal">
+                {/* <CalendarMonthIcon sz={18} onClick={() => setCalendarClick(true)} /> */}
+                {calendarClick && 
+                <Calendar setCalendarClick={setCalendarClick} modalRef={modalRef}/> }
+                {resourceClick && 
+                <Learn setResourceClick={setResourceClick} modalRef={modalRef}/> }
+                {connectClick && 
+                <Connect setConnectClick={setConnectClick} modalRef={modalRef}/> }
+            </div>
+            <div className="buttons">
+                <button onClick={() => setCalendarClick(true)}>
+                    <img src={CalendarIcon} alt="calendar"/>
+                Calendar</button>
+                <button onClick={() => setResourceClick(true)}>
+                <img src={Book} alt="calendar"/>
+                Learn</button>
+                <button onClick={() => setConnectClick(true)}>
+                <img src={Conversation} alt="calendar"/>
+                Connect</button>
+            </div>
+
         </div> 
     )
 }
