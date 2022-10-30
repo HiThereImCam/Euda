@@ -103,21 +103,47 @@ section {
   display:flex;
   align-content: center;
   justify-content: center;
-  margin: 0 auto;
   background-color: #7C60B1;
   border-radius: 30px;
   padding: 4em 4em;
+  max-width: 30rem;
+  color: #FFFF;
 }
 .modalGrateful h2{
   margin-top: 0;
 }
 .buttonsGrateful > button {
-  padding: 0.5em;
-  border-radius: 55px;
+  padding: 0.5em 0.8em;
+  border-radius: 50px;
   font-family: 'Gochi Hand', cursive;
   font-size: 2em;
+  background-color: #FFFF;
+  color: #7C60B1;
+  border: none;
+  min-width: 5em;
 }
-
+.grateful-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input{
+  width: 30em;
+  height: 8em;
+  align-self: center;
+  border-radius: 30px;
+  margin-bottom: 2em;
+}
+.input > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+}
+.buttonsGrateful{
+  display: flex;
+  justify-content: space-around;
+}
 
 .header-container{
 
@@ -144,8 +170,5 @@ section {
 .mood-container > img{
   height: 65%;
 
-}
-.buttonsGrateful{
-  display: flex;
-}
+
 
