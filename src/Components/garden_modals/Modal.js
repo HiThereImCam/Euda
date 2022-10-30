@@ -6,7 +6,7 @@ import Learn from "./Learn";
 import CalendarIcon from "../../images/calendar-icon.svg";
 import Book from "../../images/book.svg";
 import Conversation from "../../images/conversation.png";
-import Grateful from "./Grateful";
+
 
 const Modal = () => {
     const [calendarClick, setCalendarClick] = useState(false)
@@ -22,7 +22,7 @@ const Modal = () => {
     return(
         <div className="container">
             <div className="modal">
-                <Grateful/>
+                
                 {/* <CalendarMonthIcon sz={18} onClick={() => setCalendarClick(true)} /> */}
                 {calendarClick && 
                 <Calendar setCalendarClick={setCalendarClick} modalRef={modalRef}/> }
