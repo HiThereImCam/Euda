@@ -1,0 +1,8 @@
+.buttons .icon {
+  all:unset;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
