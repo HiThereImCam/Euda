@@ -4,6 +4,7 @@
   font-family: 'Gochi Hand', cursive;
 }
 
+
 .garden{
   width: 100vw;
   height: 100vh;
@@ -51,8 +52,9 @@
 }
 
 section{
-  /* margin: 0 auto;
+  /* /* margin: 0 auto;
   max-width: 70vw; */
+  width: 100vw; */
   width: 100vw;
 }
 
@@ -91,4 +93,23 @@ section{
   margin: 0 auto;
   width: 31.25rem;
   height: 31.25rem;
+}
+
+.modalGrateful{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #7C60B1;
+  border-radius: 30px;
+  padding: 4em 4em;
+}
+.modalGrateful h2{
+  margin-top: 0;
+}
+.buttonsGrateful > button {
+  padding: 0.5em;
+  border-radius: 55px;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 2em;
 }
