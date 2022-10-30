@@ -10,7 +10,7 @@ p, a {
   font-size: 1.2em;
   color: #FFFF;
 }
-button{
+button{ 
   display: flex;
   flex-direction: column;
   font-family: 'Gochi Hand', cursive;
@@ -20,9 +20,5 @@ button{
   color: #FFFF;
   border-radius: 50%;
 }
-button > img{
-  align-self: center;
-  justify-self: center;
-  max-width: 2em;
-}
+
 
