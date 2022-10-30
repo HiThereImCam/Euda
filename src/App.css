@@ -81,3 +81,28 @@ section{
   margin-right: 2em;
   margin-top: 1em;
 }
+.mood_modal-container{
+  border: 5px solid red;
+  margin: 0 auto;
+  width: 31.25rem;
+  height: 31.25rem;
+}
+
+.modalGrateful{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #7C60B1;
+  border-radius: 30px;
+  padding: 4em 4em;
+}
+.modalGrateful h2{
+  margin-top: 0;
+}
+.buttonsGrateful > button {
+  padding: 0.5em;
+  border-radius: 55px;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 2em;
+}
