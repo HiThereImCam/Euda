@@ -3,6 +3,9 @@
 body {
   margin: 0;
 }
+h2{
+  font-size: 2.5em;
+}
 h3{
   font-size: 1.8em;
 }
@@ -10,7 +13,9 @@ p, a {
   font-size: 1.2em;
   color: #FFFF;
 }
+
 button{ 
+
   display: flex;
   flex-direction: column;
   font-family: 'Gochi Hand', cursive;

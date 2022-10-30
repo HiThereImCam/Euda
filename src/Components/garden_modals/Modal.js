@@ -3,9 +3,11 @@ import { useRef, useState } from "react"
 import Calendar from "./Calendar";
 import Connect from "./Connect";
 import Learn from "./Learn";
+
 import CalendarIcon from "../../images/Track_widget.png"
 import Book from "../../images/Learn_widget.png";
 import Conversation from "../../images/Connect_widget.png";
+
 
 const Modal = () => {
     const [calendarClick, setCalendarClick] = useState(false)
@@ -21,6 +23,7 @@ const Modal = () => {
     return(
         <div className="container">
             <div className="modal">
+                <Grateful/>
                 {/* <CalendarMonthIcon sz={18} onClick={() => setCalendarClick(true)} /> */}
                 {calendarClick && 
                 <Calendar setCalendarClick={setCalendarClick} modalRef={modalRef}/> }
@@ -30,12 +33,14 @@ const Modal = () => {
                 <Connect setConnectClick={setConnectClick} modalRef={modalRef}/> }
             </div>
             <div className="buttons">
+
                 <button className="icon" onClick={() => setCalendarClick(true)}>
                     <img src={CalendarIcon} alt="calendar"/></button>
                 <button className="icon" onClick={() => setResourceClick(true)}>
                 <img src={Book} alt="calendar"/></button>
                 <button className="icon" onClick={() => setConnectClick(true)}>
                 <img src={Conversation} alt="calendar"/></button>
+
             </div>
 
         </div> 
