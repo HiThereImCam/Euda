@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import './App.css';
 import Modal from './Components/garden_modals/Modal';
 import MoodModal from './Components/sky_modals/moodModal';
-
+import Grateful from './Components/sky_modals/Grateful';
 
 
 function App() {
   const [moodState, setMoodState] = useState(false)
-  const [gratefulState, setGratefulState] = useState(flase)
+  const [gratefulState, setGratefulState] = useState(false)
 
 const moveBrowserDown = () => {
     // movebrowserdown
@@ -19,7 +19,8 @@ const moveBrowserDown = () => {
          {/* need to add gratitude modal  */}
         {/* <img src={CloudsBackground} alt="calendar" className='mood-img'/> */}
         <MoodModal setMoodState={setMoodState}/>
-        <Grateful />
+        {moodState &&  <Grateful /> }
+       
         {moodState && gratefulState && moveBrowserDown}
       </section>
       <section className="garden">
