@@ -9,8 +9,11 @@ const MoodModal = ({setMoodState}) => {
     
     return(
      <div className="mood_modal-container">
+
+        <h4>How are you feeling today?</h4>
+
         {/* <h4>How are you feeling today?</h4> */}
-        
+
      </div>   
     )
 }
