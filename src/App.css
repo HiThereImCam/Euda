@@ -117,6 +117,7 @@ section {
   background-color: #FFFF;
   color: #7C60B1;
   border: none;
+  min-width: 5em;
 }
 .grateful-section{
   display: flex;
