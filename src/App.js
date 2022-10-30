@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <section className="sky">
-
+    
       </section>
       <section className="garden">
       <Modal />
