@@ -6,3 +6,12 @@
   cursor: pointer;
 }
 
+.timeline {
+  width: 50%;
+  margin-top: 32px;
+  z-index: 0;
+}
+
+.calendar-timeline-container{
+  height: 750px;
+}

@@ -90,10 +90,13 @@ section {
 }
 
 .mood_modal-container{
-  border: 5px solid red;
+
   margin: 0 auto;
   width: 73.75rem;
   height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: wrap column; */
 }
 
 .modalGrateful{
@@ -136,10 +139,36 @@ section {
   height: 100%;
   border-radius: 30px;
   border: none;
-
 }
 .buttonsGrateful{
   display: flex;
   justify-content: space-around;
 }
+
+.header-container{
+
+}
+
+.welcome-header{
+  font-size: 5.375rem;
+  margin-top: 0px;
+}
+
+.question{
+  font-size: 4.375rem;
+}
+
+.mood-container{
+  width: 100%;
+
+  height: 32%;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+.mood-container > img{
+  height: 65%;
+
+
 
