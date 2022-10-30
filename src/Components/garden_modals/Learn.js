@@ -1,4 +1,4 @@
-import useOnClickOutside from "../Hooks/useOnClickOutside";
+import useOnClickOutside from "../../Hooks/useOnClickOutside"
 
 const Learn = ({setResourceClick, modalRef}) => {
     useOnClickOutside(modalRef, () => setResourceClick(false))
