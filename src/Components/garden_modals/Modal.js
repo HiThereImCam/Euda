@@ -3,9 +3,10 @@ import { useRef, useState } from "react"
 import Calendar from "./Calendar";
 import Connect from "./Connect";
 import Learn from "./Learn";
-import CalendarIcon from "../../images/calendar-icon.svg";
-import Book from "../../images/book.svg";
-import Conversation from "../../images/conversation.png";
+
+import CalendarIcon from "../../images/Track_widget.png"
+import Book from "../../images/Learn_widget.png";
+import Conversation from "../../images/Connect_widget.png";
 
 
 const Modal = () => {
@@ -32,15 +33,14 @@ const Modal = () => {
                 <Connect setConnectClick={setConnectClick} modalRef={modalRef}/> }
             </div>
             <div className="buttons">
-                <button onClick={() => setCalendarClick(true)}>
-                    <img src={CalendarIcon} alt="calendar"/>
-                Calendar</button>
-                <button onClick={() => setResourceClick(true)}>
-                <img src={Book} alt="book"/>
-                Learn</button>
-                <button onClick={() => setConnectClick(true)}>
-                <img src={Conversation} alt="connect"/>
-                Connect</button>
+
+                <button className="icon" onClick={() => setCalendarClick(true)}>
+                    <img src={CalendarIcon} alt="calendar"/></button>
+                <button className="icon" onClick={() => setResourceClick(true)}>
+                <img src={Book} alt="calendar"/></button>
+                <button className="icon" onClick={() => setConnectClick(true)}>
+                <img src={Conversation} alt="calendar"/></button>
+
             </div>
 
         </div> 
