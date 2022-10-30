@@ -115,3 +115,7 @@ section {
   font-size: 2em;
 }
 
+.buttonsGrateful{
+  display: flex;
+}
+

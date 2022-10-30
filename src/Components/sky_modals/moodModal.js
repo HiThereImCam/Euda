@@ -1,4 +1,4 @@
-import Grateful from "./Grateful";
+
 const MoodModal = ({setMoodState}) => {
     /**
      * I imagine transitions
@@ -13,7 +13,6 @@ const MoodModal = ({setMoodState}) => {
         <h4>How are you feeling today?</h4>
 
         {/* <h4>How are you feeling today?</h4> */}
-
 
      </div>   
     )
