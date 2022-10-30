@@ -3,6 +3,7 @@
   text-align: center;
   font-family: 'Gochi Hand', cursive;
 }
+
 .garden{
   width: 100vw;
   height: 100vh;
@@ -28,6 +29,11 @@
   border-radius: 30px;
   padding: 1em;
 }
+.sky{
+  width: 100vw; 
+  height: 100vh;
+  background-color: #87BDFF;
+}
 .modalShape{
   display:flex;
   align-content: center;
@@ -39,8 +45,9 @@
   max-width: fit-content;
 }
 section{
-  margin: 0 auto;
-  max-width: 70vw;
+  /* margin: 0 auto;
+  max-width: 70vw; */
+  width: 100vw;
 }
 .resources{
   display: flex;
